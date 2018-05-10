@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/md_blue_500</item>
+        <item name="colorPrimaryDark">@color/md_blue_600</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--home theme-->
+    <style name="HomeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/brandColorDeep</item>
+        <item name="colorPrimaryDark">@color/brandColorDeep</item>
+        <item name="colorAccent">@color/brandColorDeep</item>
+    </style>
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@android:color/transparent</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <!--AleartDialog style-->
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--buttons color-->
+        <item name="colorAccent">@color/brandColorLight</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">@color/brandColorDeep</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@drawable/dialog</item>
+    </style>
+    <!--checkbox style-->
+    <style name="checkBoxStyle" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/brandColorLight</item>
+        <item name="android:textColorSecondary">@color/textColorTitleSmall</item>
+    </style>
+    <style name="checkBoxStyle1" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorSecondary">@color/backgroundWhiteDeep</item>
+
+    </style>
+</resources>

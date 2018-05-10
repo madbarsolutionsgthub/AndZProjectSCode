@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutOfPromptMessage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <!--    <TextView
+        android:id="@+id/txtPromptMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="Type Your Message : "
+        android:textAppearance="?android:attr/textAppearanceLarge" />-->
+    <TextView
+        android:id="@+id/txtPromptMessage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Mobile No"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="3dp"
+        android:textSize="@dimen/textsize12sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <EditText
+        android:id="@+id/editTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:focusable="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="5dp"
+        android:gravity="left|center"
+        android:textSize="@dimen/textsize12sp"
+        android:enabled="false"
+        android:background="@drawable/small_box_style"
+        android:textColor="@color/textColorTitleSmall"/>
+    <TextView
+        android:id="@+id/txtPromptMessage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Text Message"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="17dp"
+        android:textSize="@dimen/textsize12sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <EditText
+        android:id="@+id/editTextTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="20dp"
+        android:focusable="true"
+        android:inputType="textMultiLine"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="left|right"
+        android:minLines="7"
+        android:ems="10"
+        android:maxLines="10"
+        android:textSize="@dimen/textsize12sp"
+        android:lineSpacingExtra="4dp"
+        android:background="@drawable/small_box_style"
+        android:textColor="@color/textColorTitleSmall"/>
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_developer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="#111"
+    tools:context="com.csi.institutionsprofile.Activity.TestActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l1"
+        android:background="@drawable/guidlines_card_style"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/l2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            >
+
+            <!-- Login Title Description-->
+            <TextView
+                android:id="@+id/textViewFounderName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guidelines"
+                android:textSize="17dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                />
+            <TextView
+                android:id="@+id/textViewContactInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guidelines1"
+                android:textSize="@dimen/textsize12sp"
+                android:textColor="#ddd"
+                android:gravity="left"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:lineSpacingExtra="4dp"/>
+           <!-- <TextView
+                android:id="@+id/textViewMobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guidelines2"
+                android:textSize="@dimen/textsize12sp"
+                android:textColor="#ddd"
+                android:gravity="left"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>-->
+
+            <Button
+                android:id="@+id/buttonCancel"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/guidlines_button_style"
+                android:textSize="11sp"
+                android:text="Cancel"
+                android:elevation="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_gravity="right"
+                android:layout_marginRight="11dp"
+                android:layout_marginLeft="11dp"/>
+
+        </LinearLayout>
+        <!--CALL SMS AND EMAIL label-->
+
+
+    </RelativeLayout>
+</RelativeLayout>

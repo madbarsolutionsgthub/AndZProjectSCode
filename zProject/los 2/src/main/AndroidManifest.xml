@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.csi.los">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <permission android:name="com.csi.los.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="com.csi.los.permission.C2D_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.Splash"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.Login"
+            android:theme="@style/LoginPageTheme" />
+        <activity android:name=".Activity.ActivityHome" />
+        <activity
+            android:name=".Activity.ActivityLoanCaseEntry"
+            android:theme="@style/LoanCaseFormTheme" />
+        <activity android:name=".Activity.ActivityBorrowerInfo" />
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.ActivityLoginUser" />
+        <activity android:name=".Activity.ActivitySignUp" />
+        <activity android:name=".Activity.ActivityUserProfile" />
+        <activity android:name=".Activity.ActivityEditProfile" />
+        <activity
+            android:name=".Activity.ActivityApplyForLoan"
+            android:theme="@style/LoanCaseFormTheme" />
+        <!--New Activity is adding here-->
+        <activity
+            android:name=".Activity.ActivityLoanCaseEntryCustomer"
+            android:theme="@style/LoanCaseFormTheme" />
+        <activity
+            android:name=".Activity.ActivityContactInfoCustomer"
+            android:theme="@style/LoanCaseFormTheme" />
+
+        <activity
+            android:name=".Activity.ActivityFamilyInfoCustomer"
+            android:theme="@style/LoanCaseFormTheme" />
+        <activity
+            android:name=".Activity.ActivityPersonalInfoCustomer"
+            android:theme="@style/LoanCaseFormTheme" />
+
+
+        <activity android:name=".Activity.ActivityLoanSubmit" />
+        <activity android:name=".Activity.ActivityLoanSearch" />
+        <activity android:name=".Activity.ActivityAgentAccount" />
+        <activity
+            android:name=".Activity.ActivityPersonalInfo"
+            android:theme="@style/LoanCaseFormTheme" />
+        <activity
+            android:name=".Activity.ActivityFamilyInfo"
+            android:theme="@style/LoanCaseFormTheme" />
+        <activity
+            android:name=".Activity.ActivityContactInfo"
+            android:theme="@style/LoanCaseFormTheme" />
+        <activity android:name=".Activity.ActivityLoanStatus" />
+        <activity android:name=".Activity.ActivityNotInitiatedLoan"></activity>
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver" android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.csi.los" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".GCM.GCMPushReceiverService" android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        
+        <service android:name=".GCM.GCMRegistrationIntentService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID"/>
+            </intent-filter>
+        </service>
+        
+    </application>
+
+</manifest>

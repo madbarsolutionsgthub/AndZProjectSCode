@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_personalInfo"
+        android:icon="@drawable/person"
+        android:title="@string/personalInfo"/>
+    <item
+        android:id="@+id/action_familyInfo"
+        android:icon="@drawable/family_icon"
+        android:title="@string/familyinfo"/>
+    <item
+        android:id="@+id/action_contactInfo"
+        android:icon="@drawable/mobile"
+        android:title="@string/contactInfo"/>
+</menu>

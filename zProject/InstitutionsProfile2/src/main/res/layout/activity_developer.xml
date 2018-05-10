@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_developer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="#ddd"
+    tools:context="com.csi.institutionsprofile.Activity.ActivityDeveloper">
+ <include layout="@layout/toolbar"/>
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:id="@+id/l1"
+     android:background="@drawable/developer_card_style"
+     android:layout_below="@+id/toolbar"
+     android:layout_marginTop="30dp"
+     android:layout_marginLeft="23dp"
+     android:layout_marginRight="23dp"
+     android:layout_marginBottom="0dp">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:id="@+id/l2"
+     android:layout_marginTop="10dp"
+     android:layout_marginLeft="0dp"
+     android:layout_marginRight="0dp"
+     android:layout_marginBottom="0dp"
+     android:background="#f5f5f5">
+  <!-- Login Title -->
+  <ImageView
+      android:id="@+id/imageViewFounderPic"
+      android:layout_width="match_parent"
+      android:layout_height="120dp"
+      android:textColor="@color/textColorTitleLarge"
+      android:gravity="center"
+      android:layout_marginTop="23dp"
+      android:layout_marginRight="23dp"
+      android:layout_marginLeft="23dp"
+      android:src="@drawable/csi_logo"/>
+  <!-- Login Title Description-->
+  <TextView
+      android:id="@+id/textViewFounderName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/contactinfo"
+      android:textSize="20dp"
+      android:textColor="@color/brandColorLight"
+      android:gravity="center"
+      android:layout_marginTop="40dp"
+      />
+  <TextView
+      android:id="@+id/textViewContactInfo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/contactinfoDetailes"
+      android:textSize="@dimen/textsize12sp"
+      android:textColor="@color/textColorTitleSmall"
+      android:gravity="center"
+      android:layout_marginTop="5dp"
+      />
+  <TextView
+      android:id="@+id/textViewMobileNo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/mobileInfotech"
+      android:textSize="@dimen/textsize12sp"
+      android:textColor="@color/textColorTitleLarge"
+      android:gravity="center"
+      android:layout_marginTop="23dp"
+      />
+  <TextView
+      android:id="@+id/textViewIPPhone"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/ipPhone"
+      android:textSize="@dimen/textsize12sp"
+      android:textColor="@color/textColorTitleLarge"
+      android:gravity="center"
+      android:layout_marginTop="5dp"
+      />
+  <TextView
+      android:id="@+id/textViewFounderEmail"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/emailInfotech"
+      android:textSize="@dimen/textsize12sp"
+      android:textColor="@color/textColorTitleLarge"
+      android:gravity="center"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="23dp"/>
+</LinearLayout>
+  <!--CALL SMS AND EMAIL label-->
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/l2"
+      android:layout_marginTop="10dp"
+      android:layout_marginRight="10dp"
+      android:layout_marginBottom="5dp"
+      android:layout_alignParentRight="true"
+      android:gravity="right">
+   <ImageView
+       android:id="@+id/imageViewCall"
+       android:layout_width="22dp"
+       android:layout_height="22dp"
+       android:layout_alignParentLeft="true"
+       android:background="@drawable/call_icon"/>
+   <ImageView
+       android:id="@+id/imageViewSMS"
+       android:layout_width="30dp"
+       android:layout_height="30dp"
+       android:layout_marginLeft="10dp"
+       android:background="@drawable/sms_icon"
+       android:layout_toRightOf="@+id/imageViewCall"/>
+   <ImageView
+       android:id="@+id/imageViewEmail"
+       android:layout_width="25dp"
+       android:layout_height="20dp"
+       android:layout_marginLeft="10dp"
+       android:background="@drawable/email_icon"
+       android:layout_toRightOf="@+id/imageViewSMS"/>
+
+  </RelativeLayout>
+
+  <!--checkbox label
+  <CheckBox
+      android:id="@+id/chekboxShowPassword"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingBottom="5dp"
+      android:text="@string/show_password"
+      android:textColor="@color/white"
+      android:paddingLeft="0dp"
+      android:paddingTop="5dp"
+      />
+      -->
+
+
+  <!--
+   <TextView android:id="@+id/link_signup"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="No account? Create one!"
+       android:gravity="center"
+       android:textSize="16dip"
+       android:textColor="@color/colorAccent"/>
+-->
+ </RelativeLayout>
+</RelativeLayout>

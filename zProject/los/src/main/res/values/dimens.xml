@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_bottom_10dp">10dp</dimen>
+    <dimen name="margin_bottom_20dp">20dp</dimen>
+    <dimen name="margin_top_8dp">8dp</dimen>
+    <dimen name="text_padding">10dp</dimen>
+    <dimen name="textSize18sp">18sp</dimen>
+    <dimen name="textSize18dp">18dp</dimen>
+    <dimen name="textSize11sp">11sp</dimen>
+    <dimen name="textSize17sp">17sp</dimen>
+    <dimen name="commitButtonHeight">50dp</dimen>
+    <dimen name="marginleftRight4dp">4dp</dimen>
+    <dimen name="commitButtonWidth">180dp</dimen>
+    <dimen name="textSize22sp">22sp</dimen>
+    <dimen name="textSize24sp">24sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="standard_55">55dp</dimen>
+    <dimen name="standard_105">105dp</dimen>
+    <dimen name="standard_155">155dp</dimen>
+
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+
+</resources>
+

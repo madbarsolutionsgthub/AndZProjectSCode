@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_founder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="#111"
+    tools:context="com.csi.institutionsprofile.Activity.ActivityFounder">
+    <include layout="@layout/toolbar"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l1"
+        android:background="@drawable/guidlines_card_style"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/l2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            >
+            <!-- Login Title -->
+            <ImageView
+                android:id="@+id/imageViewFounderPic"
+                android:layout_width="200dp"
+                android:layout_height="140dp"
+                android:textColor="@color/textColorTitleLarge"
+                android:gravity="center"
+                android:layout_marginTop="23dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginLeft="23dp"
+                android:src="@drawable/founder"
+                android:layout_gravity="center"/>
+            <!-- Login Title Description-->
+            <TextView
+                android:id="@+id/textViewFounderName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shyama Prasad Bepari"
+                android:textSize="20dp"
+                android:textColor="@color/brandColorLight"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/textViewContactInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Joint Secretary &amp; Project Director\nHigher Secondary Stipend Project,\n Ministry of Education,\nGovernment of the People's Republic of Bangladesh."
+                android:textSize="@dimen/textsize12sp"
+                android:textColor="@color/textColorTitleSmall"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:id="@+id/textViewMobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mobileFounder"
+                android:textSize="@dimen/textsize12sp"
+                android:textColor="@color/textColorTitleSmall"
+                android:gravity="center"
+                android:layout_marginTop="23dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewFounderEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/emailFounder"
+                android:textSize="@dimen/textsize12sp"
+                android:textColor="@color/textColorTitleSmall"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="23dp"/>
+        </LinearLayout>
+        <!--CALL SMS AND EMAIL label-->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l2"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentRight="true"
+            android:gravity="right">
+            <ImageView
+                android:id="@+id/imageViewCall"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/call_icon"/>
+            <ImageView
+                android:id="@+id/imageViewSMS"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sms_icon"
+                android:layout_toRightOf="@+id/imageViewCall"/>
+            <ImageView
+                android:id="@+id/imageViewEmail"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/email_icon"
+                android:layout_toRightOf="@+id/imageViewSMS"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

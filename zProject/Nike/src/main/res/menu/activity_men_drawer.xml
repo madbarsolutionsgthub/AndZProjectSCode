@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shoes_men"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Shoes" />
+        <item
+            android:id="@+id/nav_clothing_men"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Clothing" />
+        <item
+            android:id="@+id/nav_justreleased_men"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Just Released" />
+        <item
+            android:id="@+id/nav_nba_men"
+            android:icon="@drawable/ic_menu_send"
+            android:title="NBA Gear" />
+        <item
+            android:id="@+id/nav_winter_men"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Winter Essential" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+
+</menu>

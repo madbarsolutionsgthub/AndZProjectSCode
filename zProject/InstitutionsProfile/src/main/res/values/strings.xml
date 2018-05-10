@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Institutions Profile</string>
+    <!--Home Screen item-->
+    <string name="uno">Search Service Provider</string>
+    <string name="ateo">Find Out\nATEO</string>
+    <string name="find_out">Find Out\n....</string>
+    <string name="warning">Warning</string>
+    <string name="customerServices">Associated\nInstitution</string>
+    <string name="authority">Authority</string>
+    <string name="connectDeveloper">Contact Developer</string>
+    <string name="stackHolder">Search Stakeholder</string>
+    <string name="projectDetails">Project\nDetails</string>
+    <string name="relatedLinks">Related\nLinks</string>
+    <string name="notice">Notice</string>
+    <string name="achievement">Achievement &amp; Milestone</string>
+    <string name="noInternet">No internet connection</string>
+    <string name="viewNotice">View Notice</string>
+
+    <!--activity name-->
+    <string name="CustomerServicesTitle">Associated Institution</string>
+    <string name="AuthorityTitle">Authority</string>
+    <string name="developer">Developer</string>
+    <string name="relatedLink">Related Links</string>
+    <string name="mileStone">Milestone</string>
+    <string name="projectDetailsTitle">Project Details</string>
+    <!--developer Screen item-->
+    <string name="contactinfo">Contact Info:</string>
+    <string name="contactinfoDetailes">Software Technology Park (12th Floor),\nKawran Bazar,\nDhaka, Bangladesh</string>
+    <string name="mobileInfotech">Mobile: +8801730341560</string>
+    <string name="ipPhone">IP Phone: 9141747(8009)</string>
+    <string name="emailInfotech">Email: shossain@csinfotechbd.com</string>
+
+    <!--important numbers-->
+    <string name="infotechMobile">01730341560</string>
+    <string name="teletalkCustomerCare">121</string>
+    <string name="rocketCustomerCare">16216</string>
+    <string name="bkashCustomerCare">16247</string>
+    <string name="surecashCustomerCare">09606060607</string>
+    <string name="ucashCustomerCare">16268</string>
+    <string name="gpCustomerCare">121</string>
+    <!--Related link-->
+    <string name="banbesis">Bangladesh Bureau of Educational Information and Statistics (BANBESIS)</string>
+    <string name="banbasisDes">Bangladesh Bureau of Educational Information and Statistics (BANBEIS), the only government organization responsible for collection, compilation and dissemination of educational information and statistics.</string>
+    <string name="hsspTitle">Higher Secondary Stipend Project (HSSP)</string>
+    <string name="link">Link</string>
+    <!--Milestone-->
+    <string name="achievement1Title">First Achievement Title</string>
+    <string name="achievement2Title">Second Achievement Title</string>
+    <string name="details">Details</string>
+    <!--project details-->
+    <string name="puposeDetaile">1. Bangladesh Bureau of Educational Information and Statistics (BANBEIS).\n2. The only government organization responsible for collection, compilation and dissemination of educational information and statistics.</string>
+    <!--Institute search-->
+    <string name="school_college">School &amp; College</string>
+    <string name="madrasha">Madrasha</string>
+    <string name="bmCollege">BM College</string>
+    <string name="govt">Govt.</string>
+    <string name="nonGovt">Non Govt.</string>
+    <string name="general">General College</string>
+    <string name="institute_search">Find Out Institution</string>
+    <string name="searchItem">Institute Name/Institute Head/Division/District/Upazilla</string>
+    <!--Stakeholder search-->
+    <string name="stakeholder_search">Find Out Stakeholder</string>
+    <string name="searchitemStakeholder">Stakeholder Name/Division/District/Upazilla</string>
+    <string name="deo">DEO</string>
+    <string name="dc">DC</string>
+    <string name="dshe">DSHE</string>
+
+
+    <!--spinner dropdown-->
+    <string-array name="INSTITUTION">
+        <item>Institute Name</item>
+        <item>Institute Head</item>
+        <item>Division</item>
+        <item>District</item>
+        <item>Upazilla</item>
+    </string-array>
+
+
+</resources>

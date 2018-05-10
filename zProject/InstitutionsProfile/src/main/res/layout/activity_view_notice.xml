@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_notice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.csi.institutionsprofile.Activity.ActivityViewNotice">
+    <!--notice title label-->
+    <RelativeLayout
+        android:id="@+id/relativeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:background="@color/brandColorLight"
+        android:elevation="20dp">
+        <ImageView
+            android:id="@+id/imageViewBackPress"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/back_arrow"/>
+        <TextView
+            android:id="@+id/textViewNoticeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:layout_marginRight="5dp"
+            android:text="acscbscbscc cvcgasc avfaafahf sjgvffjafhj svgasfgfg"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/imageViewBackPress"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize17sp" />
+    </RelativeLayout>
+    <!--notice details label-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relativeTitle">
+    <TextView
+        android:id="@+id/textViewNoticeDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/banbasisDes"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="11dp"
+        android:textSize="@dimen/textsize12sp"
+        android:lineSpacingExtra="3dp"
+        android:textColor="#111"
+        android:gravity="center"
+        android:layout_below="@id/textViewTitleFirstMilestone"
+        android:layout_marginBottom="20dp"/>
+</ScrollView>
+    <!--Notice publish date-->
+    <RelativeLayout
+        android:id="@+id/relativePublishDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/brandColorLight"
+        >
+        <TextView
+            android:id="@+id/textViewNoticePublishDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:layout_marginRight="5dp"
+            android:text=""
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize12sp" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

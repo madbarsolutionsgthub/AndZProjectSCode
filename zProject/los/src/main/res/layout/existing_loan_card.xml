@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_marginLeft="11dp"
+    android:layout_marginRight="11dp"
+    android:layout_marginTop="11dp"
+    android:background="@drawable/profile_card_style"
+    android:elevation="20dp">
+
+    <!--Loan status title label-->
+    <TextView
+        android:id="@+id/textViewCaseNoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="CASE NO:"
+        android:textColor="@color/md_green_500"
+        android:textSize="@dimen/textSize11sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"/>
+    <!--Loan status Label-->
+    <TextView
+        android:id="@+id/textViewCaseNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="123dr"
+        android:textColor="@color/textColorTitleSmall"
+        android:textSize="@dimen/textSize11sp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/textViewCaseNoTitle"
+        android:layout_marginTop="3dp"/>
+
+    <!--Loan holder name Label-->
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Riazul Sagar"
+        android:layout_marginLeft="5dp"
+        android:textSize="8sp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/textViewCaseNoTitle"
+        android:textColor="@color/textColorTitleSmall"/>
+    <!--Loan status title label-->
+    <TextView
+        android:id="@+id/textViewStatusTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/status"
+        android:textColor="@color/md_green_500"
+        android:textSize="@dimen/textSize11sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/textViewName"
+        android:layout_marginTop="3dp"/>
+    <!--Loan status Label-->
+    <TextView
+        android:id="@+id/textViewstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Draft"
+        android:textColor="@color/textColorTitleSmall"
+        android:textSize="@dimen/textSize11sp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/textViewName"
+        android:layout_toRightOf="@+id/textViewStatusTitle"
+        android:layout_marginTop="3dp"/>
+    <!--Loan Type Label-->
+    <EditText
+        android:id="@+id/line1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="#ddd"
+        android:editable="false"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textViewstatus"/>
+    <TextView
+        android:id="@+id/textViewLoantype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Personal Loan"
+        android:textColor="@color/textColorTitleSmall"
+        android:textSize="8sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/line1"
+        android:layout_marginTop="10dp"/>
+    <!--Loan Amount label-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line1"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textViewLoanType"
+        android:gravity="right">
+        <TextView
+            android:id="@+id/textViewLoanAmountTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/loanAmount"
+            android:textColor="@color/textColorTitleLarge"
+            android:textSize="8sp"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:id="@+id/textViewloanAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="4000000 Tk"
+            android:textColor="@color/md_green_500"
+            android:textSize="8sp"
+            android:layout_marginRight="11dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/textViewLoanAmountTitle"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

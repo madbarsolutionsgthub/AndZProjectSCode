@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">উচ্চ মাধ্যমিক উপবৃত্তি প্রকল্প</string>
+    <!--Home Screen item-->
+    <string name="uno">Search Service Provider</string>
+    <string name="ateo">Find Out\nATEO</string>
+    <string name="find_out">Find Out\n....</string>
+    <string name="warning">Warning</string>
+    <string name="customerServices">Service Provider\nসেবা প্রদানকারী</string>
+    <string name="authority">Authority\nকর্তৃপক্ষ</string>
+    <string name="connectDeveloper">Contact Developer</string>
+    <string name="stackHolder">Search Stakeholder\nঅংশীদারদের খুঁজুন</string>
+    <string name="projectDetails">Project Details\nপ্রকল্প সারসংক্ষেপ</string>
+    <string name="relatedLinks">Related Links\nসম্পর্কিত লিংক</string>
+    <string name="notice">Notice\nবিজ্ঞপ্তি</string>
+    <string name="achievement">Achievement &amp; Milestone\nঅর্জন এবং মাইলফলক</string>
+    <string name="founder">Founder of the Apps\nঅ্যাপটির প্রতিষ্ঠাতা</string>
+    <string name="noInternet">No internet connection</string>
+    <string name="viewNotice">Download Notice</string>
+    <string name="instituteBangla">প্রকল্পের আওতাভুক্ত শিক্ষা প্রতিষ্ঠানসমূহ</string>
+
+    <!--activity name-->
+    <string name="CustomerServicesTitle">Service Provider</string>
+    <string name="AuthorityTitle">Authority\n</string>
+    <string name="developer">Developer</string>
+    <string name="relatedLink">Related Links</string>
+    <string name="mileStone">Milestone</string>
+    <string name="projectDetailsTitle">Project Details</string>
+    <!--developer Screen item-->
+    <string name="contactinfo">Contact Info:</string>
+    <string name="contactinfoDetailes">Software Technology Park (12th Floor),\nKawran Bazar,\nDhaka, Bangladesh</string>
+    <string name="mobileInfotech"><b>Mobile :</b> +8801730341560</string>
+    <string name="mobileFounder"><b>Mobile :</b> +8801715171784</string>
+    <string name="ipPhone"><b>IP Phone :</b> 9141747(8009)</string>
+    <string name="emailInfotech"><b>Email :</b> shossain@csinfotechbd.com</string>
+    <string name="emailFounder"><b>Email :</b> ictbangla52@gmail.com</string>
+
+    <!--important numbers-->
+    <string name="infotechMobile">01730341560</string>
+    <string name="teletalkCustomerCare">121</string>
+    <string name="rocketCustomerCare">16216</string>
+    <string name="bkashCustomerCare">16247</string>
+    <string name="surecashCustomerCare">09606060607</string>
+    <string name="ucashCustomerCare">16268</string>
+    <string name="gpCustomerCare">121</string>
+    <!--Related link-->
+    <string name="banbesis">Bangladesh Bureau of Educational Information and Statistics (BANBESIS)</string>
+    <string name="banbasisDes">Bangladesh Bureau of Educational Information and Statistics (BANBEIS), the only government organization responsible for collection, compilation and dissemination of educational information and statistics.</string>
+    <string name="hsspTitle">Higher Secondary Stipend Project (HSSP)</string>
+    <string name="hsspDes">Many development programmes have been taken to implement ‘vision 2021’-a far-sighted plan by the leader and Honorable Prime Minister of the People’s Republic of Bangladesh, Sheikh Hasina. The government has marked education sector as the most important sector. As a part of this, modern education policy has been dropted to ensure the right of education for all. Female education has become widespread in our country. Many practical measures have been taken to attract all the learners, including female learners to education.</string>
+    <string name="ministryTitle">Ministry of Education (শিক্ষা মন্ত্রণালয়-গণপ্রজাতন্ত্রী বাংলাদেশ)</string>
+    <string name="dsheTitle">Directorate of Secondary and Higher Education (মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর)</string>
+    <string name="link">Link</string>
+    <!--Milestone-->
+    <string name="achievement1Title">Mobile banking for providing stipend to the students</string>
+    <string name="achievement2Title">Reducing bank service charge</string>
+    <string name="achievement3Title">Introducing new software and Website</string>
+    <string name="achievement4Title">Disburshment of TeleTalk Sim free of cost</string>
+    <string name="achievement5Title">Intrducing new APPS</string>
+    <string name="achievement6Title">Income generating  skill-training during study period</string>
+
+    <string name="achievement1detais"> Conventional (Traditional) banking system was the way to provide stipend money to the students; but Higher Secondary Stipend Project is the pioneer project for introducing mobile banking in this arena.
+         The benefit of this mobile banking cash transfer system helps to eliminate the leakage of money, saves huge time,money and man days hours, avoid the system jams.
+        The students are capable to learn mobile banking literacy and grow their saving attitudes. Students are highly satisfied because they are receiving the full amount of money with smiling face.</string>
+    <string name="achievement2detais">Reducing bank service charge is one of the most important phenomenon of the history of bank service charge rate. Existing bank service charge rate in various project with the respective bank is 2.5 percent. But HSSP is  different here.
+        Agreement between HSSP and Agrani Bank is only 1 percent interms of  bank service charge.</string>
+    <string name="achievement3detais">Introducing of new software and website is a basic change of the system of data collection and making the way easier to process data.
+        The project collects the stipend data within 2 steps from the Institutions developing an effective  Software and created a data-base for disbursing money smoothly and transparently disrupting the traditional systems
+        where 23 steps needed to collect the data from 7.2 thousands institutions from all over the country.It has saved money, time and man days hours.</string>
+    <string name="achievement4detais">(MOU) signing between HSSP and TeleTalk to disbursh TeleTalk Sim free of cost to the students is a significant achievement for providing stipend money to the students.
+        Regarding disburshment of money through mobile banking mobile sim  is a necessary thing.</string>
+    <string name="achievement5detais">Intrducing new APPS is a significant achievement for providing stipend to the stipend recipient  through mobile banking. HSSP stored various information of related Institutions for exchanging
+        information with the Head of the Institutions. It makes the way easier to process data successfully.</string>
+    <string name="achievement6detais">The main innovation of this project is providing part time professional  income- generating skill based training to the  stipend recipient pro-poor students for earning money to continue  their education smoothly,
+        meeting the educational and other expenses. Already two hundred students are provided training on dress-making, Beautification, Mobile phone servicing, Nursery, Sweet making, ICT based out sourcing, poultry,
+        Motor-mechanics on pilot basis in the 10 centers in the country with the collaboration of Access to Information (a2i) Program, Prime Minister`s Office, Bangladesh.</string>
+    <string name="achievement_summary">HSSP (Higher secondary Stipend Project) engaged with providing  stipend to the poor and  pro- poor students  with a view to continuing their study,delaing marriage,reducing disparity between male and female, enhancing the scope  for employment and self employment opportunities, encouraging women to participate in socio-economic activities together with men and above all to achieve gender equality and empowerment of women . So the stipend program  has become one of the effective tools  for educating the poor students and has already been proved a useful social safety-net program of Bangladesh. The present democratic Government has introduced the Higher Secondary Stipend Project as a useful and priority based program. The achievements are as follows :</string>
+    <string name="details">Details</string>
+    <!--project details-->
+    <string name="puposeDetaile">1. Bangladesh Bureau of Educational Information and Statistics (BANBEIS).\n2. The only government organization responsible for collection, compilation and dissemination of educational information and statistics.</string>
+    <!--Institute search-->
+    <string name="school_college">School &amp; College</string>
+    <string name="madrasha">Madrasha</string>
+    <string name="bmCollege">BM College</string>
+    <string name="govt">Govt.</string>
+    <string name="nonGovt">Non Govt.</string>
+    <string name="general">General College</string>
+    <string name="institute_search">Find Out Institution</string>
+    <string name="searchItem">Institute Name/Institute Head/Division/District/Upazilla</string>
+    <!--Stakeholder search-->
+    <string name="stakeholder_search">Find Out Stakeholder</string>
+    <string name="searchitemStakeholder">Stakeholder Name/Division/District/Upazilla</string>
+    <string name="deo">DEO</string>
+    <string name="dc">DC</string>
+    <string name="dshe">DSHE</string>
+
+
+    <!--spinner dropdown-->
+    <string-array name="INSTITUTION">
+        <item>Institute Name</item>
+        <item>Institute Head</item>
+        <item>Division</item>
+        <item>District</item>
+        <item>Upazilla</item>
+    </string-array>
+
+    <!--Guidelines-->
+    <string name="guidelines">নির্দেশিকা</string>
+    <string name="guidelines1">১। আপনার অ্যাকাউন্ট পাসওয়ার্ড কারো সাথে শেয়ার করবেন না। \n২। অ্যাকাউন্ট খোলার সময় মোবাইল নাম্বার সঠিকভাবে দিন। \n৩। মোবাইল বা সিম হারিয়ে গেলে জেলা শহরের DBBL এর প্রতিনিধির সাথে যোগাযোগ করুন অথবা ১৬২১৬ নাম্বারে কল করুন।
+    \n৪। উপবৃত্তি পাওয়ার পর যথাশিগ্রই সকল টাকা উত্তোলন করে ফেলুন। \n৫। আপনার এই রকেট অ্যাকাউন্টে অন্যান্য রকেট অ্যাকাউন্টের মত ব্যাংকিং এর সকল সুযোগ-সুবিধাই পাবেন।</string>
+    <string name="guidelines2"><font color='#2e7331'>2.</font> Do not try with wrong pin more than three times</string>
+
+
+</resources>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:background="@color/transparent_background"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.csi.los.Activity.ActivityHome">
+    <!--Header level-->
+    <LinearLayout
+        android:id="@+id/Header"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:orientation="vertical"
+        android:background="@drawable/header_bg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:elevation="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfile"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="10dp"
+                android:src="@mipmap/ic_action_account_circle"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/white"/>
+            <TextView
+                android:id="@+id/textViewBankAgentUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="10dp"
+                android:text="Jahidul Islam"
+                android:layout_toRightOf="@+id/imageViewProfile"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize17sp" />
+            <ImageView
+                android:id="@+id/imageViewLogout"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/logout"/>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/textViewExistingLoanSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:text="@string/existingLoanSearch"
+            android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize17sp" />
+        <!--Search Label-->
+        <LinearLayout
+            android:id="@+id/linearlayoutSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/search_field_style">
+
+                <Spinner
+                    android:id="@+id/spinnerSearchLoan"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/white"
+                    android:fitsSystemWindows="true"
+                    android:gravity="center|"
+                    android:paddingBottom="0dp"
+                    android:layout_marginRight="5dp"
+                    android:popupBackground="@drawable/spinner_popup_style"
+                    android:scrollbarSize="4dp"
+                    android:spinnerMode="dialog" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:background="@color/md_blue_400" />
+
+            <EditText
+                android:id="@+id/editTextSearch"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:editable="false"
+                android:gravity="center|left"
+                android:paddingLeft="23dp"
+                android:paddingTop="12dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize11sp"
+                android:backgroundTint="#99ffffff"
+               />
+            <ImageView
+                android:id="@+id/imageViewAgentSearch"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:src="@android:drawable/ic_menu_search"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <!--Loan case entry label-->
+    <LinearLayout
+        android:id="@+id/linearLoanCaseEntry"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_weight="0.50"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/Header"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="@drawable/loancase_bg"
+        android:layout_marginTop="46dp"
+        >
+    <TextView
+        android:id="@+id/textViewLoanCaseEntry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/loanCaseEntry"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize17sp" />
+    </LinearLayout>
+    <!--Not initiation loans label-->
+    <LinearLayout
+        android:id="@+id/linearNotInitiationLoans"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_weight="0.50"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLoanCaseEntry"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="@drawable/notinitiatedloan_bg"
+        android:layout_marginTop="11dp"
+        >
+        <TextView
+            android:id="@+id/textViewNotInitiationLoans"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/notInitiationLoans"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize17sp" />
+    </LinearLayout>
+    <!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/linearLoanCaseEntry"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="0.50"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/home_button_style">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/dollar_icon"
+                        android:layout_gravity="center|left|start" />
+
+                    <TextView
+                        android:id="@+id/textViewLoanCaseEntry"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/loanCaseEntry"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLoanCaseSubmit"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="0.50"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/home_button_style2">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/loansubmit_icon"
+                        android:layout_gravity="center|left|start" />
+
+                    <TextView
+                        android:id="@+id/textViewLoanSubmit"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/loanSubmit"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/linearClearData"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="0.50"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/home_button_style2">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/clean_icon"
+                        android:layout_gravity="center|left|start" />
+
+                    <TextView
+                        android:id="@+id/textViewClearData"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/CleanData"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearContact"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_weight="0.50"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/home_button_style">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/contact_icon"
+                        android:layout_gravity="center|left|start"
+                        android:id="@+id/imageView2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/contactUs"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:id="@+id/textViewContactUs" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+       -->
+
+
+</RelativeLayout>

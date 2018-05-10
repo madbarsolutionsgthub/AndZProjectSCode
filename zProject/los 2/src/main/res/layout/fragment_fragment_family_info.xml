@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dua"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_blue_400"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.csi.los.Activity.ActivityBorrowerInfo">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_background"
+        android:fitsSystemWindows="true"
+        android:scrollbarSize="3.5dp"
+        android:layout_below="@+id/toolbar"
+        android:scrollbarThumbVertical="@color/md_blue_400">
+
+    <LinearLayout
+        android:id="@+id/linearLoanPersonalinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <!--Spouse info title-->
+        <TextView
+            android:id="@+id/textViewPersonalInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="2dp"
+            android:textStyle="normal"
+            android:text="@string/spouseInformation"
+            android:layout_marginBottom="@dimen/margin_top_8dp"
+            android:textColor="@color/colorAccent"
+            />
+        <!--Spouse Name-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/login_edittext_style"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="@dimen/text_padding"
+                android:layout_marginStart="@dimen/text_padding"
+                android:src="@drawable/person" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColorHint="@color/textColor"
+                android:background="@drawable/login_edittext_style">
+                <EditText
+                    android:id="@+id/editTextSpouseName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="@string/spouseName"
+                    android:textSize="@dimen/textSize18sp"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="#888"
+                    android:textColorHint="#888" />
+            </android.support.design.widget.TextInputLayout>
+         </LinearLayout>
+        <!--Spouse Profession-->
+        <LinearLayout
+            android:id="@+id/linearlayoutSpouseProfession"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textViewSpouseProfession"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:editable="false"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:paddingTop="12dp"
+                android:text="@string/profession"
+                android:textColor="@color/textColor"
+                android:textSize="18dp" />
+            <Space
+                android:layout_width="7dp"
+                android:layout_height="5dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/login_edittext_style">
+                <TextView
+                    android:id="@+id/sProfession"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left|start"
+                    android:textColor="@color/textColor"
+                    android:textSize="18dp" />
+                <Spinner
+                    android:id="@+id/spinnerSpouseProfession"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/md_blue_300"
+                    android:fitsSystemWindows="true"
+                    android:gravity="center"
+                    android:paddingBottom="0dp"
+                    android:paddingLeft="15dp"
+                    android:popupBackground="@drawable/spinner_popup_style"
+                    android:scrollbarSize="4dp"
+                    android:spinnerMode="dialog" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!--spouse mobile no-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/login_edittext_style"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bottom_10dp">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="@dimen/text_padding"
+                android:layout_marginStart="@dimen/text_padding"
+                android:src="@drawable/mobile" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColorHint="@color/textColor"
+                android:background="@drawable/login_edittext_style">
+                <EditText
+                    android:id="@+id/editTextSpouseMobileNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="@string/mobileNo"
+                    android:inputType="number"
+                    android:textSize="@dimen/textSize18sp"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="#888"
+                    android:textColorHint="#888" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <!--Parent info title-->
+        <TextView
+            android:id="@+id/textViewParentInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="2dp"
+            android:textStyle="normal"
+            android:text="@string/parentInfo"
+            android:layout_marginBottom="@dimen/margin_top_8dp"
+            android:layout_marginTop="@dimen/margin_bottom_10dp"
+            android:textColor="@color/colorAccent"
+            />
+        <!--Mother's Name-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/login_edittext_style"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="@dimen/text_padding"
+                android:layout_marginStart="@dimen/text_padding"
+                android:src="@drawable/person" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColorHint="@color/textColor"
+                android:background="@drawable/login_edittext_style">
+                <EditText
+                    android:id="@+id/editTextMothersName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="@string/motherName"
+                    android:textSize="@dimen/textSize18sp"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="#888"
+                    android:textColorHint="#888" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <!--Mother Profession-->
+        <LinearLayout
+            android:id="@+id/linearlayoutMotherProfession"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textViewMotherProfession"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:editable="false"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:paddingTop="12dp"
+                android:text="@string/profession"
+                android:textColor="@color/textColor"
+                android:textSize="18dp" />
+            <Space
+                android:layout_width="7dp"
+                android:layout_height="5dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/login_edittext_style">
+                <TextView
+                    android:id="@+id/mProfession"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left|start"
+                    android:textColor="@color/textColor"
+                    android:textSize="18dp" />
+                <Spinner
+                    android:id="@+id/spinnerMothersProfession"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/md_blue_300"
+                    android:fitsSystemWindows="true"
+                    android:gravity="center"
+                    android:paddingBottom="0dp"
+                    android:paddingLeft="15dp"
+                    android:popupBackground="@drawable/spinner_popup_style"
+                    android:scrollbarSize="4dp"
+                    android:spinnerMode="dialog" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!--mother's mobile no-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/login_edittext_style"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bottom_10dp">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="@dimen/text_padding"
+                android:layout_marginStart="@dimen/text_padding"
+                android:src="@drawable/mobile" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColorHint="@color/textColor"
+                android:background="@drawable/login_edittext_style">
+                <EditText
+                    android:id="@+id/editTextMothersMobileNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="@string/mobileNo"
+                    android:inputType="number"
+                    android:textSize="@dimen/textSize18sp"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="#888"
+                    android:textColorHint="#888" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <!--Father's Name-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/margin_bottom_10dp"
+            android:background="@drawable/login_edittext_style"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="@dimen/text_padding"
+                android:layout_marginStart="@dimen/text_padding"
+                android:src="@drawable/person" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColorHint="@color/textColor"
+                android:background="@drawable/login_edittext_style">
+                <EditText
+                    android:id="@+id/editTextFathersName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="@string/fatherName"
+                    android:textSize="@dimen/textSize18sp"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="#888"
+                    android:textColorHint="#888" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <!--Father Profession-->
+        <LinearLayout
+            android:id="@+id/linearlayoutFathersProfession"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textViewFathersProfession"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:editable="false"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:paddingTop="12dp"
+                android:text="@string/profession"
+                android:textColor="@color/textColor"
+                android:textSize="18dp" />
+            <Space
+                android:layout_width="7dp"
+                android:layout_height="5dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/login_edittext_style">
+                <TextView
+                    android:id="@+id/fProfession"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left|start"
+                    android:textColor="@color/textColor"
+                    android:textSize="18dp" />
+                <Spinner
+                    android:id="@+id/spinnerFathersProfession"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/md_blue_300"
+                    android:fitsSystemWindows="true"
+                    android:gravity="center"
+                    android:paddingBottom="0dp"
+                    android:paddingLeft="15dp"
+                    android:popupBackground="@drawable/spinner_popup_style"
+                    android:scrollbarSize="4dp"
+                    android:spinnerMode="dialog" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!--father's mobile no-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/login_edittext_style"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bottom_10dp">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="@dimen/text_padding"
+                android:layout_marginStart="@dimen/text_padding"
+                android:src="@drawable/mobile" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColorHint="@color/textColor"
+                android:background="@drawable/login_edittext_style">
+                <EditText
+                    android:id="@+id/editTextFathersMobileNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="@string/mobileNo"
+                    android:inputType="number"
+                    android:textSize="@dimen/textSize18sp"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="#888"
+                    android:textColorHint="#888" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <!--Button home & commit-->
+        <LinearLayout
+            android:id="@+id/linearlayoutButtonlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="@dimen/margin_bottom_10dp"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:id="@+id/linearlayoutCommit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commitButtonHeight"
+                android:layout_marginTop="@dimen/margin_bottom_10dp"
+                android:background="@drawable/commit_button_style"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/marginleftRight4dp"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@mipmap/save" />
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/darker_gray" />
+                <Button
+                    android:id="@+id/buttonCommit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textColor="@color/white"
+                    android:text="@string/commit" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearlayoutHome"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commitButtonHeight"
+                android:layout_marginTop="@dimen/margin_bottom_10dp"
+                android:background="@drawable/next_button_style"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/marginleftRight4dp">
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@mipmap/home_icon" />
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/darker_gray" />
+                <Button
+                    android:id="@+id/buttonHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textColor="@color/white"
+                    android:text="@string/homeActivity" />
+            </LinearLayout>
+
+        </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

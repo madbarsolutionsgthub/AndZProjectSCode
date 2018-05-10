@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:background="#f9f9f9"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.csi.los.Activity.ActivityNotInitiatedLoan">
+
+
+    <LinearLayout
+        android:id="@+id/Header"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:orientation="vertical"
+        android:background="@color/md_blue_900"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            >
+            <ImageView
+                android:id="@+id/imageViewBackPress"
+                android:layout_width="10dp"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/logo"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfile"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@+id/imageViewBackPress"
+                android:src="@mipmap/ic_action_account_circle"/>
+            <TextView
+                android:id="@+id/textViewBankAgentUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="2dp"
+                android:text="Jahidul Islam"
+                android:layout_toRightOf="@+id/imageViewProfile"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize11sp" />
+            <ImageView
+                android:id="@+id/imageViewLogout"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/logo"/>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/textViewExistingLoanSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:text="@string/existingLoanSearch"
+            android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize17sp" />
+        <!--Search Label-->
+        <LinearLayout
+            android:id="@+id/linearlayoutSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/search_field_style">
+
+            <Spinner
+                android:id="@+id/spinnerSearchLoan"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/white"
+                android:fitsSystemWindows="true"
+                android:gravity="center|"
+                android:paddingBottom="0dp"
+                android:layout_marginRight="5dp"
+                android:popupBackground="@drawable/spinner_popup_style"
+                android:scrollbarSize="4dp"
+                android:spinnerMode="dialog" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:background="@color/md_blue_400" />
+
+            <EditText
+                android:id="@+id/editTextSearch"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:paddingLeft="23dp"
+                android:paddingTop="12dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize11sp"
+                android:backgroundTint="@android:color/transparent"
+                />
+            <ImageView
+                android:id="@+id/imageViewAgentSearch"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

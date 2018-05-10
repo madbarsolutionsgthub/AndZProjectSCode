@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Nike</string>
+    <string name="title_activity_men">Mens Collection</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_women">Womens Collection</string>
+    <string name="title_activity_boys">Boys Collection</string>
+    <string name="title_activity_girls">Girls Collection</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5073485968659558/3049988451</string>
+    <string name="admob_interstitial_id">ca-app-pub-5073485968659558/3564993773</string>
+
+</resources>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Gender data-->
+    <string-array name="GENDER">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <!--Marital status data-->
+    <string-array name="MARITAL_STATUS">
+        <item>Unmarried</item>
+        <item>Married</item>
+    </string-array>
+    <!--Employee Profession-->
+
+    <string-array name="EMPLOYEE_PROFESSION">
+        <item>NA</item>
+        <item>BANKER</item>
+        <item>DOCTOR</item>
+        <item>ENGINEER</item>
+        <item>BUSINESSMAN</item>
+        <item>FARMER</item>
+        <item>OTHERS</item>
+    </string-array>
+    <!--EmployeeCompany-->
+    <string-array name="EMPLOYEE_COMPANY">
+        <item>NA</item>
+        <item>GOVT.</item>
+        <item>BANK</item>
+        <item>NGO</item>
+        <item>IT</item>
+        <item>OTHERS</item>
+    </string-array>
+
+
+    <!--Education data-->
+    <string-array name="EDUCATION">
+        <item>Graduate</item>
+        <item>HSC</item>
+        <item>SSC</item>
+        <item>Below SSC</item>
+    </string-array>
+    <!--Country-->
+    <string-array name="COUNTRY">
+        <item>Bangladesh</item>
+    </string-array>
+    <!--City data-->
+    <string-array name="CITY">
+        <item>Barisal</item>
+        <item>Barguna</item>
+        <item>Bandarban</item>
+        <item>Bagerhat</item>
+        <item>Bhola</item>
+        <item>Brahmanbaria</item>
+        <item>Bogra</item>
+
+        <item>Chadpur</item>
+        <item>Chittagong</item>
+        <item>Comilla</item>
+        <item>Chuadanga</item>
+        <item>Chapainababganj</item>
+        <item>Cox Bazar</item>
+
+        <item>Dhaka</item>
+        <item>Dinajpur</item>
+
+        <item>Faridpur</item>
+        <item>Feni</item>
+
+        <item>Gazipur</item>
+        <item>Gopalganj</item>
+        <item>Gaibandha</item>
+
+        <item>Habiganj</item>
+
+        <item>Jhalokati</item>
+        <item>Jamalpur</item>
+        <item>Jesssore</item>
+        <item>Jhenaidah</item>
+        <item>Joypurhat</item>
+
+        <item>Khagrachhari</item>
+        <item>Kishoregonj</item>
+        <item>Khulna</item>
+        <item>Kushtia</item>
+        <item>Kurigram</item>
+
+        <item>Lakshmipur</item>
+        <item>Lalmonirhat</item>
+
+        <item>Madaripur</item>
+        <item>Manikganj</item>
+        <item>Munshiganj</item>
+        <item>Mymensingh</item>
+        <item>Magura</item>
+        <item>Meherpur</item>
+        <item>Maulvibazar</item>
+
+        <item>Noakhali</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Netrokona</item>
+        <item>Narail</item>
+        <item>Naogaon</item>
+        <item>Natore</item>
+        <item>Nilphamari</item>
+
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+        <item>Pabna</item>
+        <item>Panchagarh</item>
+
+        <item>Rangamati</item>
+        <item>Rajbari</item>
+        <item>Rajshahi</item>
+        <item>Rangpur</item>
+
+        <item>Shariatpur</item>
+        <item>Sherpur</item>
+        <item>Satkhira</item>
+        <item>Sirajganj</item>
+        <item>Sylhet</item>
+        <item>Sunamgang</item>
+
+        <item>Tangail</item>
+        <item>ThakurGaon</item>
+
+    </string-array>
+
+    <!--Gender data-->
+    <string-array name="CUSTOMER_TYPE">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+    <!--Gender data-->
+    <string-array name="LOAN_TYPE">
+        <item>Auto Loan</item>
+        <item>Clean Credit Loan</item>
+        <item>Foreign Education Loan</item>
+        <item>Full Secured Loan</item>
+        <item>Home Loan</item>
+        <item>Secured Overdraft Loan</item>
+    </string-array>
+
+    <string-array name="RESIDENTIAL">
+        <item>Ordinary Resident</item>
+        <item>Resident but Not Ordinarily</item>
+        <item>Non-Resident</item>
+    </string-array>
+
+    <!--Sub Loan Type-->
+    <string-array name="SUBLOAN_TYPE">
+        <item>SubLoan1</item>
+        <item>SubLoan2</item>
+        <item>SubLoan3</item>
+    </string-array>
+
+    <!--Branch Name-->
+    <string-array name="Branch_Name">
+        <item>Gulshan</item>
+        <item>Mirpur</item>
+        <item>Dhanmondi</item>
+        <item>Rampura</item>
+        <item>Tejgaon</item>
+    </string-array>
+
+
+    <!--Application Type-->
+    <string-array name="APPLICATION_TYPE">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+    <!--Gender data-->
+    <string-array name="NATURE_OF_PROPOSAL">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+    <!--Gender data-->
+    <string-array name="CAR_OWNERSHIP">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+
+<!--Spouse Profession-->
+    <string-array name="SPOUSE_PROFESSION">
+        <item>Teacher</item>
+        <item>Doctor</item>
+        <item>Banker</item>
+        <item>Other</item>
+    </string-array>
+
+<!--spouse company-->
+    <string-array name="SPOUSE_COMPANY">
+        <item>Company1</item>
+        <item>Company2</item>
+        <item>Company3</item>
+        <item>Company4</item>
+    </string-array>
+
+    <!--Father Profession-->
+    <string-array name="FATHER_PROFESSION">
+        <item>Teacher</item>
+        <item>Doctor</item>
+        <item>Banker</item>
+        <item>Other</item>
+    </string-array>
+
+    <!--father company-->
+    <string-array name="FATHER_COMPANY">
+        <item>Company1</item>
+        <item>Company2</item>
+        <item>Company3</item>
+        <item>Company4</item>
+    </string-array>
+
+
+    <!--Mother Profession-->
+    <string-array name="MOTHER_PROFESSION">
+        <item>Teacher</item>
+        <item>Doctor</item>
+        <item>Banker</item>
+        <item>Other</item>
+    </string-array>
+
+    <!--mother company-->
+    <string-array name="MOTHER_COMPANY">
+        <item>Company1</item>
+        <item>Company2</item>
+        <item>Company3</item>
+        <item>Company4</item>
+    </string-array>
+
+    <!--Employment Profession-->
+    <string-array name="EMPLOYMENT_PROFESSION">
+        <item>Teacher</item>
+        <item>Doctor</item>
+        <item>Banker</item>
+        <item>Other</item>
+    </string-array>
+
+    <!--employment company-->
+    <string-array name="EMPLOYMENT_COMPANY">
+        <item>Company1</item>
+        <item>Company2</item>
+        <item>Company3</item>
+        <item>Company4</item>
+    </string-array>
+
+    <!--credit facilityType-->
+    <string-array name="CREDIT_FACILITY_TYPE">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+
+    <!--credit branchName-->
+    <string-array name="CREDIT_BRANCH_NAME">
+        <item>A</item>
+        <item>AB</item>
+        <item>ABC</item>
+        <item>ABCD</item>
+    </string-array>
+
+</resources>

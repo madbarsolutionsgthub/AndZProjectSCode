@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">The 100</string>
+    <string name="title_activity_home">First Part</string>
+    <string name="title_activity_second">Second Part</string>
+    <string name="title_activity_third">Third Part</string>
+    <string name="title_activity_forth">Forth Part</string>
+    <string name="title_activity_fifth">Fifth Part</string>
+    <string name="noConnection">No internet connection</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5073485968659558/2689252845</string>
+    <string name="admob_interstitial_id">ca-app-pub-5073485968659558/3701638539</string>
+    <string name="test">This is a test code for The 100 ( Most influence man in the history). So try this out.all about is to develop a great app</string>
+    <string name="about"><b>The 100 (1.1.2)</b>\n\n"The 100" is perhaps one of the greatest books on the analysis of history ever written. The author of the book <b>Dr. Michael H. Hart</b> is a man of amazing erudition in diverse fields and domains of study and research.</string>
+    <!--title name-->
+    <string name="one">1. MUHAMMAD</string>
+    <string name="two">2. ISAAC NEWTON</string>
+    <string name="three">3. JESUS CHRIST</string>
+    <string name="four">4. BUDDHA</string>
+    <string name="five">5. CONFUCIUS</string>
+    <string name="six">6. ST.PAUL</string>
+    <string name="seven">7. T.S AI LUN</string>
+    <string name="eight">8. JOHANN GUTENBERG</string>
+    <string name="nine">9. CHRISTOPHER COLUMBUS</string>
+    <string name="ten">10. ALBERT EINSTEIN</string>
+    <string name="eleven">11. LOUIS PASTEUR</string>
+    <string name="twelve">12. GALILEO GALILEI</string>
+    <string name="thirteen">13. ARISTOTLE</string>
+    <string name="forteen">14. EUCLID</string>
+    <string name="fifteen">15. MOSES</string>
+    <string name="sixteen">16. CHARLES DARWIN</string>
+    <string name="seventeen">17. SHIH HUANG TI</string>
+    <string name="eightteen">18. AUGUSTUS CAESAR</string>
+    <string name="ninteen">19. NICOLAUS COPERNICUS</string>
+    <string name="twenty">20. ANTOINE LAURENTLA VOISIER</string>
+    <string name="twenty1">21. CONSTANTINE THE GREAT</string>
+    <string name="twenty2">22. JAMES WATT</string>
+    <string name="twenty3">23. MICHAEL FARADAY</string>
+    <string name="twenty4">24. JAMES CLERK MAXWELL</string>
+    <string name="twenty5">25. MARTIN LUTHER</string>
+    <string name="twenty6">26. GEORGE WASHINGTON</string>
+    <string name="twenty7">27. KARL MARX</string>
+    <string name="twenty8">28. ORVILLE WRIGHT &amp; WILBUR WRIGHT</string>
+    <string name="twenty9">29. GENGHIS KHAN</string>
+    <string name="thirty">30. ADAM SMITH</string>
+    <string name="thirty1">31. WILLIAM SHAKESPEARE</string>
+    <string name="thirty2">32. JOHN DALTON</string>
+    <string name="thirty3">33. ALEXANDER THE GREAT</string>
+    <string name="thirty4">34. NAPOLEON BONAPARTE</string>
+    <string name="thirty5">35. THOMAS EDISON</string>
+    <string name="thirty6">36. ANTONY VAN LEEUWENHOEK</string>
+    <string name="thirty7">37. WILLIAM T.C MORTON</string>
+    <string name="thirty8">38. GUGLIELMO MARCONI</string>
+    <string name="thirty9">39. ADOLF HITLER</string>
+    <string name="forty">40. PLATO</string>
+    <string name="forty1">41. OLIVER CROMWELL</string>
+    <string name="forty2">42. ALEXANDER GRAHAM BELL</string>
+    <string name="forty3">43. ALEXANDER FLEMING</string>
+    <string name="forty4">44. JOHN LOCKE</string>
+    <string name="forty5">45. LUDWIG VAN BEETHOVEN</string>
+    <string name="forty6">46. WERNER HEISENBERG</string>
+    <string name="forty7">47. LOUIS DAGUERRE</string>
+    <string name="forty8">48. SIMON BOLIVAR</string>
+    <string name="forty9">49. RENE DESCARTES</string>
+    <string name="fifty">50. MICHEL ANGELO</string>
+    <string name="fifty1">51. POPE URBAN II</string>
+    <string name="fifty2">52. UMAR IBN AL KHATTAB</string>
+    <string name="fifty3">53. ASOKA</string>
+    <string name="fifty4">54. ST.AUGUSTINE</string>
+    <string name="fifty5">55. WILLIAM HARVEY</string>
+    <string name="fifty6">56. ERNEST RUTHERFORD</string>
+    <string name="fifty7">57. JOHN CAL VIN</string>
+    <string name="fifty8">58. GREGOR MENDEL</string>
+    <string name="fifty9">59. MAX PLANCK</string>
+    <string name="sixty">60. JOSEPH LISTER</string>
+</resources>

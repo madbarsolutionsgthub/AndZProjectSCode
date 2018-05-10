@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Loan Management System</string>
+    <string name="login">Login</string>
+    <string name="show_password">Show password</string>
+    <string name="lms"><b>LMS</b></string>
+
+    <string name="loanSubmit">Loan Submit</string>
+    <string name="CleanData">Clear Previous Data</string>
+    <string name="contactUs">Contact Us</string>
+    <string name="signUp">Sign up</string>
+    <string name="confirmPassword">Confirm password</string>
+    <string name="createAccount">Create Account</string>
+    <string name="email">Email</string>
+    <string name="appliedForLoan">Apply for\nLoan</string>
+    <string name="loanStatus">Loan Status</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="logout">Logout</string>
+    <string name="update">Update</string>
+    <string name="send">Send</string>
+    <!--Activity Name-->
+    <string name="homeActivity">Home</string>
+    <string name="loanCaseActivity">Loan Case Entry</string>
+    <string name="applyForLoan">Apply For Loan</string>
+    <string name="LoanSubmit">Loan Submit</string>
+    <string name="notInitiatedLoansTitle">Not Initiated Loans</string>
+    <!--Loan case entry screen-->
+    <string name="brachName">Branch</string>
+    <string name="customerType">Customer Type*</string>
+    <string name="loanType">Loan Type*</string>
+    <string name="subloanType">Sub Loan Type*</string>
+    <string name="applicationType">Application Type*</string>
+    <string name="natureProposal">Nature of Proposal</string>
+    <string name="appliedLoanAmount">Applied Loan Amount (BDT)*</string>
+    <string name="CaseNumber">Case Number </string>
+    <string name="appliedloanTenor">Applied Loan Tenor (Month)*</string>
+    <string name="borrowersNo">No of Borrowers*</string>
+    <string name="interestRate">Interest Rate (%)</string>
+    <string name="commit">Commit</string>
+    <string name="next">NEXT</string>
+    <!--Personal Info entry screen -->
+    <string name="personalInfoTitle">Personal Information</string>
+    <string name="bankAccNo">Bank Account Number</string>
+    <string name="customerCode">Customer Code</string>
+    <string name="fullName">Full Name</string>
+    <string name="nickName">Nick Name</string>
+    <string name="dateOfBirth">Date of Birth</string>
+    <string name="gender">Gender*</string>
+    <string name="maritalStatus">Marital Status*</string>
+    <string name="educationLevel">Education Level*</string>
+    <string name="noOfChildren">No of Children</string>
+    <string name="nationalId">National ID*</string>
+    <string name="tin">TIN</string>
+    <string name="passportNo">Passport No</string>
+    <string name="drivingLicenseNo">Driving License No</string>
+    <string name="passExpDate">Pass. Exp. Date</string>
+    <string name="dlExpDate">DL. Exp. Date</string>
+    <string name="carOwnership">Car Ownership*</string>
+    <string name="residentialStatus">Residential Status*</string>
+    <string name="presentAddress">Present Address</string>
+    <string name="address">Address</string>
+    <string name="postCode">Post Code</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="livingPeriod">Living Period*</string>
+    <string name="years">Years</string>
+    <string name="month">Months</string>
+    <string name="permanentAddress">Permanent Address</string>
+    <string name="sameAsResidence">Same as Residence Address</string>
+    <!--Family Info entry screen-->
+    <string name="spouseInformation">Spouse Information</string>
+    <string name="spouseName">Spouse Name</string>
+    <string name="profession">Profession</string>
+    <string name="mobileNo">Mobile No</string>
+    <string name="spouseMobile">Spouse Mobile No</string>
+    <string name="fathersMobile">Father\'s Mobile No</string>
+    <string name="mothersMobile">Mother\'s Mobile No</string>
+    <string name="spouseBusinessLength">Spouse Business Length</string>
+    <string name="spouseBusines">Spouse Business Length</string>
+    <string name="spouseMonthlyIncome">Spouse Monthly Income</string>
+    <string name="spouseOfficePhoneNumber">Spouse Office Phone Number</string>
+    <string name="MotherCompanyFirmname">Mother Company/Firm name</string>
+    <string name="fatherCompanyFirmname">Father Company / Firm name</string>
+    <string name="spouseDesignation">Spouse Designation</string>
+    <string name="parentInfo">Parent\'s Information</string>
+    <string name="motherName">Mother\'s Name</string>
+    <string name="fatherName">Father\'s Name</string>
+    <string name="spouseProfession">Spouse Profession</string>
+    <string name="spouseCompanyName">Spouse Company/Firm</string>
+    <string name="fatherProfession">Father Profession</string>
+    <string name="motherProfession">Mother Profession</string>
+
+    <!--Contact Info entry screen-->
+    <string name="personalEmail">Personal E-mail Address*</string>
+    <string name="officeEmail">Office E-mail Address</string>
+    <string name="personalPhone">Personal Phone No*</string>
+    <string name="presentResPhome">Present Res Phone No</string>
+    <string name="permanentResPhone">Permanent Res Phone No</string>
+    <string name="officePhone">Office Phone No</string>
+    <string name="submit">SUBMIT</string>
+    <!--BootomBar Menu-->
+    <string name="personalInfo">Personal Info</string>
+    <string name="familyinfo">Family And Employment Info</string>
+    <string name="contactInfo">Contact Info</string>
+    <!--MainActivity screen-->
+    <string name="chooseAccount">Choose Account Type</string>
+    <string name="bankAgent">BANK AGENT</string>
+    <string name="personalAccount">PERSONAL</string>
+    <string name="bankAgentDes">Please Entry of Bank Agent</string>
+    <string name="personalDes">Entry of Personal Account</string>
+    <string name="poweredBy">Powered By CSInfotech</string>
+    <!--Activity Login-->
+    <string name="loginTitle">LOGIN</string>
+    <string name="loginTitleDes">Please, login the ABC Bank</string>
+    <string name="forget_password">Forget Your Password ?</string>
+    <string name="Loginemail">User Name or Email ...</string>
+    <string name="loginPassword">Your Password ...</string>
+    <string name="noAccount">You have no Account?</string>
+    <!--Activity signup-->
+    <string name="signTitleDes">Please, Sign up the ABC Bank</string>
+    <string name="signUpTitle">SIGN UP</string>
+    <string name="yourName">Your Name...</string>
+    <string name="yourEmail">Your Email...</string>
+    <string name="yourMobile">Your Mobile...</string>
+    <string name="yourHaveAccount">You have Account?</string>
+
+    <!--Activity Account-->
+    <string name="accountTitle">Account</string>
+    <string name="profile_update">PROFILE UPDATE</string>
+    <!--Activity Home-->
+    <string name="existingLoanSearch">Existing Loan Search</string>
+    <string name="loanCaseEntry">Loan Case\nEntry</string>
+    <string name="notInitiationLoans">Not Initiated\nLoans</string>
+    <!--RecycleView Item-->
+    <string name="caseNo">Name:</string>
+    <string name="status">Status:</string>
+    <string name="loanAmount">Loan Amount:</string>
+    <!--error message-->
+    <string name="passwordDontMatch">Password Do Not Match</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shoes_women"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Shoes" />
+        <item
+            android:id="@+id/nav_clothing_women"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Clothing" />
+        <item
+            android:id="@+id/nav_new_women"
+            android:icon="@drawable/ic_menu_send"
+            android:title="New Arrivals" />
+        <item
+            android:id="@+id/nav_bestselleres_women"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Best Sellers" />
+        <item
+            android:id="@+id/nav_nowtredding_women"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Now Trending" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+
+</menu>
